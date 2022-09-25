@@ -45,7 +45,7 @@
   .row {
     display: flex;
     padding: 20px;
-  
+    cursor: pointer;
     text-align: center;
   
     background-color: var(--background-color-light);
