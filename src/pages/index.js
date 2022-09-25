@@ -9,7 +9,7 @@ export default function Home ({countries}) {
     <Layout className={styles.counts}>
       <div>Found {countries.length} countries</div>
       <SearchInput placeholder = 'Filter by Name, Region or SubRegion'  />
-      <CountriesTable />
+      <CountriesTable countries={countries} />
     </Layout>
   )
 }
